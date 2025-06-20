@@ -65,10 +65,10 @@ include 'includes/obtener_categorias.php';
             <input class="form-check-input" type="checkbox" name="disponibilidad" id="disponibilidad" checked>
             <label class="form-check-label" for="disponibilidad">Disponible</label>
         </div>
-
-        <button type="submit" class="btn btn-primary">Agregar Producto</button><br>
+        <div class="container mt-5" style="text-align: center;">
+        <button type="submit" class="btn btn-primary mb-3">Agregar Producto</button><br>
         <a href="index.php" class="btn btn-secondary">Volver</a>
-
+        </div>
     </form>
 </div>
 </body>
