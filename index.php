@@ -126,10 +126,10 @@ include 'includes/operacionesindex.php';
                 <a href="agregar_producto.php" class="btn btn-outline-success">
                     <i class="fas fa-plus me-1"></i> Agregar Producto
                 </a>
-                <a href="#" class="btn btn-outline-warning">
+                <a href="crear_factura.php" class="btn btn-outline-warning">
                     <i class="fas fa-file-plus me-1"></i> Nueva Factura
                 </a>
-                <a href="#" class="btn btn-outline-info">
+                <a href="todas_facturas.php" class="btn btn-outline-info">
                     <i class="fas fa-list me-1"></i> Ver Facturas
                 </a>
             </div>
