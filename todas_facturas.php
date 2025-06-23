@@ -13,11 +13,13 @@ $resultado = $conn->query($sql);
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Todas las Facturas</title>
+    <title>Listado de Facturas</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="container py-4">
     <h2>Listado de Facturas</h2>
+    <a href="index.php" class="btn btn-secondary me-2">Volver</a>
+    <br>
     <table class="table table-striped">
         <thead>
             <tr>

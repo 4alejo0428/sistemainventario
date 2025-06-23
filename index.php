@@ -1,6 +1,5 @@
 <!-- index.php -->
 <?php include 'includes/footer.php'; ?>
-<?php include 'includes/header.php'; ?>
 <?php
 include 'conexion.php';
 include 'includes/operacionesindex.php';
@@ -15,11 +14,28 @@ include 'includes/operacionesindex.php';
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  
+<header
+<?php include 'includes/header.php'; ?>
+</header>
 <main class="container my-5">
+        <div class="text-center" style="gap:10px">
+            <div class="d-grid gap-5 d-md-flex justify-content-center">
+                <a href="inventario.php" class="btn btn-outline-primary">
+                    <i class="fas fa-eye me-1"></i> Ver Inventario
+                </a>
+                <a href="agregar_producto.php" class="btn btn-outline-success">
+                    <i class="fas fa-plus me-1"></i> Agregar Producto
+                </a>
+                <a href="crear_factura.php" class="btn btn-outline-warning">
+                    <i class="fas fa-file-plus me-1"></i> Nueva Factura
+                </a>
+                <a href="todas_facturas.php" class="btn btn-outline-info">
+                    <i class="fas fa-list me-1"></i> Ver Facturas
+                </a>
+            </div><br>
+        </div>
     <div class="mb-5">
         <h2 class="text-center mb-4">Panel de Control</h2>
-
         <!-- Estadísticas del Inventario -->
         <div class="row g-4 mb-4">
             <div class="col-md-3">
@@ -113,25 +129,6 @@ include 'includes/operacionesindex.php';
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <!-- Acciones Rápidas -->
-        <div class="text-center">
-            <h4 class="mb-4">Acciones Rápidas</h4>
-            <div class="d-grid gap-3 d-md-flex justify-content-center">
-                <a href="inventario.php" class="btn btn-outline-primary">
-                    <i class="fas fa-eye me-1"></i> Ver Inventario
-                </a>
-                <a href="agregar_producto.php" class="btn btn-outline-success">
-                    <i class="fas fa-plus me-1"></i> Agregar Producto
-                </a>
-                <a href="crear_factura.php" class="btn btn-outline-warning">
-                    <i class="fas fa-file-plus me-1"></i> Nueva Factura
-                </a>
-                <a href="todas_facturas.php" class="btn btn-outline-info">
-                    <i class="fas fa-list me-1"></i> Ver Facturas
-                </a>
             </div>
         </div>
     </div>

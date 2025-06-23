@@ -87,7 +87,7 @@
         </div>
 
         <div class="d-flex justify-content-end">
-            <a href="index.php" class="btn btn-secondary me-2">Cancelar</a>
+            <a href="index.php" class="btn btn-secondary me-2">Volver</a>
             <button type="submit" class="btn btn-primary">Guardar Factura</button>
         </div>
     </form>
