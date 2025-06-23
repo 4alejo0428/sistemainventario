@@ -53,7 +53,7 @@
                     <div class="col-md-4">
                         <label class="form-label">Producto</label>
                         <select name="productos[]" class="form-select producto-select" onchange="actualizarPrecio(this)" required>
-                            <?php
+                            <?php 
                             
                             $res = $conn->query("SELECT id_productos, nombre_producto, precio_producto FROM productos");
                             while ($p = $res->fetch_assoc()):
@@ -86,9 +86,10 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-end">
-            <a href="index.php" class="btn btn-secondary me-2">Volver</a>
+        <div class="d-flex justify-content-end" style="gap: 10px;">
+            <a href="index.php" class="btn btn-secondary">Volver</a>
             <button type="submit" class="btn btn-primary">Guardar Factura</button>
+            <?php echo "<a href='ver_factura.php?id=$idfactura' class='btn btn-primary'>Ver Factura</a>"; ?>
         </div>
     </form>
 </div>

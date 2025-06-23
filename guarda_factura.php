@@ -45,7 +45,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     echo "<div class='alert alert-success'>✅ Factura registrada correctamente.</div>";
     include 'crear_factura.php';
-    echo "<a href='ver_factura.php?id=$idfactura' class='btn btn-primary mt-3'>Ver Factura</a>";
 
 } else {
 }
