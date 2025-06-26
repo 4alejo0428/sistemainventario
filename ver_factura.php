@@ -73,5 +73,6 @@ $productos = $stmt2->get_result();
     </table>
     <h4 class="text-end">Total Factura: $<?= number_format($total_general, 2) ?></h4>
     <a href="todas_facturas.php" class="btn btn-primary">Ver todas las facturas</a>
+    <a href="todas_facturas.php" class="btn btn-secondary">Volver</a>
 </body>
 </html>

@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<header  
-style="background-color: #37b792; padding: 1px 0px 1px 0px; border-bottom-left-radius: 100px; border-bottom-right-radius: 100px;">
+<header class="header-principal">
   <div class="container text-center">
   <h1 class="mt-2" >Bienvenido al Sistema de Facturación <p> "El baratillo"</p></h1>
 </div>

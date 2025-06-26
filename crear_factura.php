@@ -12,8 +12,7 @@
 <div class="container py-5">
     <h2 class="mb-4">Nueva Factura</h2>
 
-    <form method="POST" action="guarda_factura.php
-">
+    <form method="POST" action="guarda_factura.php">
         <div class="card mb-4">
             <div class="card-header">Información del Cliente</div>
             <div class="card-body row g-3">
@@ -89,7 +88,7 @@
         <div class="d-flex justify-content-end" style="gap: 10px;">
             <a href="index.php" class="btn btn-secondary">Volver</a>
             <button type="submit" class="btn btn-primary">Guardar Factura</button>
-            <?php echo "<a href='ver_factura.php?id=$idfactura' class='btn btn-primary'>Ver Factura</a>"; ?>
+
         </div>
     </form>
 </div>
